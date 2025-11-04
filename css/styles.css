@@ -48,7 +48,7 @@ a {
 
 .contacts-list {
     display: flex;
-    aligh-items: center;
+    align-items: center;
     gap: 40px;
 
 }
