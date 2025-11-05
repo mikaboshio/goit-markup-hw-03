@@ -217,6 +217,7 @@ a {
 /* Our team section */
 .team-page {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-page-title {
@@ -227,10 +228,28 @@ a {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
+}
+
+.teammates-list {
+    display: flex;
+        gap: 24px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
 }
 
 .team-member {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.member-info {
+    padding: 32px 0;
 }
 
 .teammate-name {
@@ -239,6 +258,7 @@ a {
         line-height: 120%;
         letter-spacing: 0.02em;
         text-align: center;
+        margin-bottom: 8px;
         color: #2e2f42;
 }
 
